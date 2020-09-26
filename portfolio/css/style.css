@@ -1,0 +1,155 @@
+*{
+    padding: 1%;
+    }
+header{    
+    background-color: rgb(168,168,207,0.76);
+    color:#000000;
+    height: auto;
+    }
+
+header h1{
+    margin-left: 10%;
+        }
+  p{
+    font-size:1.4em;
+    }
+header p{
+    margin: 1% 5% 0% 10% ;
+        }
+header img{
+       width: 50%;
+        height: auto;
+        margin-top: 15%;
+        border-radius: 50%;
+            }
+.profile-pic{
+    margin: 0 25%;
+}
+.gif .aboutme-img{
+                margin: 0% 20%;
+            }
+.gif {
+    margin-left: 1%;
+}
+nav ul li a.nav-link{
+       font-size: 1.7em;
+      color: #000000;
+       background-color: #a8a8cfc2;
+            }
+  
+nav ul li a.nav-link.activeclass{
+      background-color: #337ab7;
+           color: #fff;
+}
+.center{
+      text-align: center;
+        }
+.left{
+    text-align: left;
+}
+
+details summary{
+    font-size: 1.8em;
+}
+details p{
+    font-size: 1.3em;
+}
+details p:nth-child(even){
+    background-color: #f6f8fa;
+}
+.progress{
+    padding: 0; 
+    margin-bottom: 2%;
+}
+.progress-bar{
+    background-color: #4caf50;
+}
+.mycard{
+         border: 3px solid #000;
+         margin: 2% 5% 2% 2%;
+         padding: 1.0em;
+            }
+.card-hearder{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+   margin: 0 1%;
+}
+
+.footer-bgimg{
+    background-image: url(../images/2015-10-15_14-58-58__footerbg.png);
+    background-repeat: no-repeat;
+    background-position: 40% 30% ;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+.link-img{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.link-img:hover{
+    background-color: #000000;
+    opacity: .5;
+}
+
+@media screen and (min-width:776px){
+    .profile-pic{
+        margin-top: 15%;
+        margin-left: 8%;
+    }
+    header p{
+       margin: 1% 5% 0% 0% ; 
+    }
+    header h1{
+        margin-left:12%;
+    }
+}
+  @media screen and (min-width:769px){
+              .gif .aboutme-img{
+                    margin: 0% 12%;
+                }
+            }
+
+/* end of css for home page*/
+
+/* accomplishments */
+.main-content:nth-child(odd){
+    background-color: #f6f8fa;
+}
+.main-content{
+    margin-bottom: 2%;
+}
+.content{
+    padding: 0;
+    font-size: 1.2em;
+}
+.content-img{
+    padding:9% 2%;
+}
+.acc-wd{
+    background-color:#f5a91f;
+    font-size: 2.5em;
+}
+
+@media screen and (min-width:1025px){
+    .content-img{
+        padding: 2%;
+    }
+}
+
+
+/* future goals */
+.fg{
+     background-color:#f5a91f;
+    font-size: 2.5em;
+}
+.jumbotron{
+    font-size: 1.4em;
+}
+.lead{
+    font-size: 1.4em;
+}
+.sm-img{
+    margin: 0 auto;
+}
