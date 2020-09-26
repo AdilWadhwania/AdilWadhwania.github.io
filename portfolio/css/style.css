@@ -63,6 +63,7 @@ details p:nth-child(even){
 }
 .progress-bar{
     background-color: #4caf50;
+     font-size: 1.8em;
 }
 .mycard{
          border: 3px solid #000;
