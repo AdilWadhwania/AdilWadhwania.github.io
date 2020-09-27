@@ -49,26 +49,27 @@ nav ul li a.nav-link.activeclass{
 }
 
 details summary{
-    font-size: 1.8em;
+    font-size: 1.9em;
 }
-details p{
-    font-size: 1.3em;
+details p,.edu-pro{
+    font-size: 1.7em;
 }
 details p:nth-child(even){
     background-color: #f6f8fa;
 }
+
 .progress{
     padding: 0; 
     margin-bottom: 2%;
 }
 .progress-bar{
     background-color: #4caf50;
-     font-size: 1.8em;
 }
 .mycard{
          border: 3px solid #000;
          margin: 2% 5% 2% 2%;
          padding: 1.0em;
+         font-size: 1.4em;
             }
 .card-hearder{
     background-color: #000;
@@ -79,6 +80,7 @@ details p:nth-child(even){
 
 .footer-bgimg{
     background-image: url(../images/2015-10-15_14-58-58__footerbg.png);
+    background-color: #000000db;
     background-repeat: no-repeat;
     background-position: 40% 30% ;
     width: 100%;
@@ -138,7 +140,6 @@ details p:nth-child(even){
         padding: 2%;
     }
 }
-
 
 /* future goals */
 .fg{
