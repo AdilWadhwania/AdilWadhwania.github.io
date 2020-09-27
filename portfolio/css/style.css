@@ -51,7 +51,7 @@ nav ul li a.nav-link.activeclass{
 details summary{
     font-size: 1.9em;
 }
-details p,.edu-pro{
+details p,edu-pro{
     font-size: 1.7em;
 }
 details p:nth-child(even){
