@@ -51,13 +51,15 @@ nav ul li a.nav-link.activeclass{
 details summary{
     font-size: 1.9em;
 }
-details p,edu-pro{
+details p{
     font-size: 1.7em;
 }
 details p:nth-child(even){
     background-color: #f6f8fa;
 }
-
+.edu-pro{
+   font-size:1.5em;
+}
 .progress{
     padding: 0; 
     margin-bottom: 2%;
