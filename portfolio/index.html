@@ -13,13 +13,17 @@
            <script src="https://use.fontawesome.com/ebb5300163.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script>
-            function myage(){
+             function myage(){
                 var today= new Date();
                 var thisyear=today.getFullYear();
-                var thimonth=today.getMonth();
-                var thisday=today.getDay();
+                var month=today.getMonth();
+                var day=today.getDay();
                 var age=thisyear-2001;
-               document.getElementById("age").innerHTML="Age   : " + age;
+                if(month >= 4){
+                    document.getElementById("age").innerHTML="Age   : " + age;
+                }else{
+                    document.getElementById("age").innerHTML="Age   : " + (age-1);
+                }
             }
         </script>
     </head>
