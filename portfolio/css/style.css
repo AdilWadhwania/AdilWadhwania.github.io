@@ -99,7 +99,7 @@ details p:nth-child(even){
     background-color: #000000;
     opacity: .5;
 }
-@media scren and (min-width:1600px){
+@media screen and (min-width:1600px){
 
 .footer-bgimg{
     background-color: #000000db;
