@@ -85,8 +85,9 @@ details p:nth-child(even){
     background-image: url(../images/2015-10-15_14-58-58__footerbg.png);
     background-color: #000000db;
     background-repeat: no-repeat;
+     width: 100%;
     background-position: 40% 30% ;
-    width: 100%;
+   
     height: auto;
     margin: 0;
 }
@@ -98,7 +99,9 @@ details p:nth-child(even){
     background-color: #000000;
     opacity: .5;
 }
+@media scren and (min-width:1600px){
 
+}
 @media screen and (min-width:776px){
     .profile-pic{
         margin-top: 15%;
