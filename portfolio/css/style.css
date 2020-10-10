@@ -102,19 +102,8 @@ details p:nth-child(even){
 @media screen and (min-width:1600px){
 
 .footer-bgimg{
-    background-color: #000000db;
-     width: 100%;
-    height: auto;
-    margin: 0;
-   }
-.link-img{
-    padding-top: 3%;
-    padding-bottom: 3%;
-  }
-.link-img:hover{
-    background-color: #000000;
-    opacity: .5;
-  }
+background-repeat:repeat-x;   
+    }
 }
 
 @media screen and (min-width:776px){
