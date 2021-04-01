@@ -19,8 +19,8 @@
                 var month=today.getMonth();
                 var day=today.getDay();
                 var age=thisyear-2001;
-                if(month >= 4){
-                    document.getElementById("age").innerHTML="Age   : " + age;
+                if(month >= 4 && day >= 14){
+                    document.getElementById("age").innerHTML="Age   : " + age;   
                 }else{
                     document.getElementById("age").innerHTML="Age   : " + (age-1);
                 }
