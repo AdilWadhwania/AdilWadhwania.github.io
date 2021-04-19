@@ -12,17 +12,20 @@
          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
            <script src="https://use.fontawesome.com/ebb5300163.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script>
-             function myage(){
+       <script>
+            function myage(){
                 var today= new Date();
                 var thisyear=today.getFullYear();
                 var month=today.getMonth();
-                var day=today.getDay();
+                var day=today.getDate();
                 var age=thisyear-2001;
-                if(month >= 4 && day >= 14){
-                    document.getElementById("age").innerHTML="Age   : " + age;   
+               console.log(today.ge);
+                
+                if(month >= 3 && day >= 19){
+                    document.getElementById("age").innerHTML="Age   : " + age;    
                 }else{
                     document.getElementById("age").innerHTML="Age   : " + (age-1);
+                    console.log(age)
                 }
             }
         </script>
