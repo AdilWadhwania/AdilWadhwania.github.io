@@ -2,7 +2,7 @@
     padding: 1%;
     }
 header{    
-    background-color: rgb(168,168,207,0.76);
+    background-color: #9aa8af;
     color:#000000;
     height: auto;
     }
@@ -13,10 +13,14 @@ header h1{
   p{
     font-size:1.4em;
     }
+
+.edu-pro p{
+    font-size: 1.0em;
+}
 header p{
     margin: 1% 5% 0% 10% ;
-    font-size:1.9em;
-        }
+    
+}
 header img{
        width: 50%;
         height: auto;
@@ -35,11 +39,11 @@ header img{
 nav ul li a.nav-link{
        font-size: 1.7em;
       color: #000000;
-       background-color: #a8a8cfc2;
+       background-color: #738690;
             }
   
 nav ul li a.nav-link.activeclass{
-      background-color: #337ab7;
+      background-color: #000000;
            color: #fff;
 }
 .center{
@@ -50,23 +54,28 @@ nav ul li a.nav-link.activeclass{
 }
 
 details summary{
-    font-size: 1.9em;
+    font-size:1.9em ;
 }
-details p{
+details p,.edu-pro{
     font-size: 1.7em;
 }
 details p:nth-child(even){
     background-color: #f6f8fa;
 }
-.edu-pro{
-   font-size:1.3em;
-}
+
 .progress{
     padding: 0; 
     margin-bottom: 2%;
 }
 .progress-bar{
     background-color: #4caf50;
+}
+.resume a{
+    font-size: 1.2em;
+    padding: 8%;
+}
+.resume-column{
+    margin-left: 5%;
 }
 .mycard{
          border: 3px solid #000;
@@ -80,16 +89,39 @@ details p:nth-child(even){
     text-align: center;
    margin: 0 1%;
 }
-
+.progress{
+    height: 23px;
+}
+footer{
+    padding: 0;
+}
 .footer-bgimg{
     background-image: url(../images/2015-10-15_14-58-58__footerbg.png);
     background-color: #000000db;
     background-repeat: no-repeat;
-     width: 100%;
     background-position: 40% 30% ;
-   
+    width: 100%;
     height: auto;
     margin: 0;
+}
+.footor-links a{
+    color: #ffffff;
+    
+}
+.name h1{
+    font-size: 3.0rem;
+}
+.footer-column{
+    margin-left: 29%;
+}
+.footer{
+    padding: 0;
+}
+.copyright{
+    font-size: 1.7em;
+}
+.copyright span,strong{
+    padding: 0;
 }
 .link-img{
     padding-top: 3%;
@@ -100,11 +132,10 @@ details p:nth-child(even){
     opacity: .5;
 }
 @media screen and (min-width:1600px){
-
-.footer-bgimg{
- background-repeat:repeat-x;
-    
-    }
+ .footer-bgimg{
+    background-repeat:repeat-x;
+}
+  
 }
 
 @media screen and (min-width:776px){
@@ -145,13 +176,21 @@ details p:nth-child(even){
     background-color:#f5a91f;
     font-size: 2.5em;
 }
+.certificate{
+    margin-left: 29%;
+}
 
 @media screen and (min-width:1025px){
     .content-img{
         padding: 2%;
     }
 }
-
+.webdesignCerti a{
+    font-size: 1.2em;
+}
+.javacerti a{
+    font-size: 1.2em;
+}
 /* future goals */
 .fg{
      background-color:#f5a91f;
